@@ -6,5 +6,5 @@
     @apply w-full lg:w-10/12 mx-auto
 }
 .my-primary-color{
-    @apply bg-[#F7A582]
+    @apply bg-[#F7A582] hover:bg-[#ea7b4f]
 }

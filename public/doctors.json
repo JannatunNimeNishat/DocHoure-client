@@ -1,0 +1,66 @@
+[
+  { 
+    "_id": "1",
+    "doctor_name": "Dr. John Smith",
+    "img":"https://i.ibb.co/k2xLWrF/d3.png",
+    "position": "Senior Physiotherapist",
+    "rating": 4.8,
+    "location": "123 Main Street, City",
+    "availability_date": "2023-06-01",
+    "price": "$80",
+    "education": "Bachelor of Physiotherapy",
+    "awards": [
+      "Best Physiotherapist Award 2022",
+      "Outstanding Service Award"
+    ],
+    "work_experience": "10+ years",
+    "service": "Orthopedic rehabilitation",
+    "specialization": [
+      "Sports injuries",
+      "Spinal conditions"
+    ],
+    "about_me": "I am a dedicated physiotherapist with expertise in orthopedic rehabilitation. I specialize in treating sports injuries and spinal conditions. With over 10 years of experience, I strive to provide personalized care to my patients and help them regain their mobility and improve their quality of life."
+  },
+  { 
+    "_id": "2",
+    "doctor_name": "Dr. Emily Johnson",
+    "img":"https://i.ibb.co/jH7qLXL/d1.png",
+    "position": "Physiotherapy Specialist",
+    "rating": 4.6,
+    "location": "456 Elm Avenue, Town",
+    "availability_date": "2023-06-03",
+    "price": "$75",
+    "education": "Master of Physiotherapy",
+    "awards": [
+      "Excellence in Rehabilitation Award"
+    ],
+    "work_experience": "8 years",
+    "service": "Neurological rehabilitation",
+    "specialization": [
+      "Stroke recovery",
+      "Spinal cord injuries"
+    ],
+    "about_me": "As a physiotherapy specialist, my focus is on neurological rehabilitation, specifically helping patients recover from strokes and spinal cord injuries. With 8 years of experience, I have witnessed the transformative power of physiotherapy in improving the lives of individuals with neurological conditions. I am committed to providing compassionate care and achieving the best outcomes for my patients."
+  },
+  { 
+    "_id": "3",
+    "doctor_name": "Dr. Sarah Anderson",
+    "img":"https://i.ibb.co/tqbgZkQ/d2.png",
+    "position": "Pediatric Physiotherapist",
+    "rating": 4.9,
+    "location": "789 Oak Lane, Village",
+    "availability_date": "2023-06-02",
+    "price": "$70",
+    "education": "Doctorate in Pediatric Physiotherapy",
+    "awards": [
+      "Pediatric Healthcare Excellence Award"
+    ],
+    "work_experience": "12 years",
+    "service": "Pediatric rehabilitation",
+    "specialization": [
+      "Cerebral palsy",
+      "Developmental delays"
+    ],
+    "about_me": "With a doctorate in pediatric physiotherapy and 12 years of experience, I specialize in providing rehabilitation services to children with conditions such as cerebral palsy and developmental delays. I am passionate about working with children and their families, creating a nurturing environment that supports their growth and development. My goal is to help children achieve their full potential through targeted physiotherapy interventions."
+  }
+]
