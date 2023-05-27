@@ -1,14 +1,21 @@
 
+import { useContext } from 'react';
 import logo from '../../../assets/img/logo/logo.png'
+import { AuthContext } from '../../../provider/AuthProvider';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
-
+    const { user } = useContext(AuthContext)
     const navItems = <>
         <li><a>Home</a></li>
         <li><a>About</a></li>
         <li><a>Appointment</a></li>
-       
-        <li><a>Login</a></li>
+        {
+            user ?
+                <li><a>Logout</a></li>
+                :
+                <li><Link to='/login'>Login</Link></li>
+        }
 
     </>
 

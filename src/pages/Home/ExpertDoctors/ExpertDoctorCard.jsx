@@ -29,6 +29,7 @@ const ExpertDoctorCard = ({ doctor }) => {
                 <div className="card-actions w-full mt-3">
                     <Link to={`/doctorProfile/${_id}`} className="btn btn-primary w-full my-primary-color border-0 ">View Profile</Link>
                 </div>
+                
             </div>
         </div>
     );
